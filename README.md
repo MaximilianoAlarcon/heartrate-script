@@ -1,11 +1,16 @@
 # heartrate-script
-Python file to predict heart rate since face video
+I was contacted by an investor who has been financing a project involved in the health industry, whose objective is to offer a remote medical service.
+At the beginning, this entrepreneur needed a prototype that could work as a viable product and thus present it to other investors with more resources to continue the development in depth.
+I was responsible for developing a module consisting of:
+A software that receives facial video as input to process the frames and predict the patient's heart rate signal.
 
-Como usar el script:
+Tech stack: Python, tensorflow, pandas, jeancv, opencv, scikit-learn
 
-* Posicionarse en la carpeta root
-* Ejecutar el comando python main.py --video "[ruta local del video]"
+How to use it:
 
-En caso de detectar un rostro en el video, el script devolvera un mensaje como este
+* Go to the root folder
+* Run the python command main.py --video "[video local path]"
+
+In case of detecting a face in the video, the script will return a message like this
 
 ![alt text](https://github.com/MaximilianoAlarcon/heartrate-script/blob/master/success.png?raw=true)
